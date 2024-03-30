@@ -31,6 +31,6 @@ This is the first project from 42 curriculum with a graphical environment. This 
 
 9) Esc will close the game window.
 
-<img src="./.readme_utils/prnt1.png">
-<img src="./.readme_utils/prnt2.png">
-<img src="./.readme_utils/prnt3.png">
+<img src="./readme_utils/prnt1.png">
+<img src="./readme_utils/prnt2.png">
+<img src="./readme_utils/prnt3.png">

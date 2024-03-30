@@ -15,13 +15,11 @@ SOURCES = so_long.c \
 
 CC = cc
 
-# LINUX FLAGS:
+#LINUX_FLAGS
+#MLXFLAGS = ./MLX42/build/libmlx42.a -I ./MLX42/include/MLX42/MLX42.h -ldl -lglfw -pthread -lm -g3
 
-MLXFLAGS = ./MLX42/build/libmlx42.a -I ./MLX42/include/MLX42/MLX42.h -ldl -lglfw -pthread -lm -g3
-
-# MACOS FLAGS:
-
-# MLXFLAGS = -framework Cocoa -framework OpenGL -framework IOKit ./MLX42/build/libmlx42.a -Iinclude -lglfw -L"/opt/homebrew/Cellar/glfw/3.3.8/lib/"
+#MAC_OS_FLAGS
+#MLXFLAGS = -framework Cocoa -framework OpenGL -framework IOKit ./MLX42/build/libmlx42.a -Iinclude -lglfw -L"/opt/homebrew/Cellar/glfw/3.3.8/lib/"
 
 CFLAGS = -Wextra -Werror -Wall -g3
 

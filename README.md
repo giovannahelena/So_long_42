@@ -4,28 +4,40 @@ This is the first project from 42 curriculum with a graphical environment. This 
 # How To Play
 
 1) Clone the repository via CLI:
-	git clone git@github.com:giovannahelena/So_long_42.git
+```bash 
+git clone git@github.com:giovannahelena/So_long_42.git
+```
 
 2) Build the MLX:
-	cd MLX42
-	cmake -B build
-	cmake --build build -j4
+```bash 
+cd MLX42
+cmake -B build
+cmake --build build -j4
+```
 
 3) Go back to the root repository:
-	cd ..
+```bash
+cd ..
+```
 
 4) Open the Makefile and remove the first '#' characther of line 20 if you are using Linux or line 23 if you are using MacOs.
 	If you are using Windows or having compilation or building problems with MLX, see the MLX42 documentation
 	(https://github.com/codam-coding-college/MLX42).
 
 5) Run the game with:
-	make play
+```bash
+make play
+```
 
 6) Or compile the game:
-	make
+```bash 
+make
+```
 
 7) and run with a map of your choice (maps found on ./maps):
-	./so_long ./maps/map6.ber
+```bash 
+./so_long ./maps/map6.ber
+```
 
 8) Use your keybord to move the astronaut (A - left, D - right, W - up, S - down or the arrows);
 
